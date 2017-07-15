@@ -8,11 +8,7 @@
     <div class="col-md-6">
         <div class="systemAlert pull-right colorWrite">
             <ul class="list-unstyled">
-
-                <li style="position: relative" class="message"><a href="#"><img src="{{asset('icon/11489856847_Comment_Icon.png')}}" alt=""></a></li>
-                <li class="notification" style="position: relative"><a href="#"><img src="{{asset('icon/11489856958_notification.png')}}" alt=""></a></li>
-                <li><a href="{{route('memberBaseProfile')}}"><img src="{{asset('icon/11489856481_user.png')}}"
-                                                                  alt=""> {{Auth::user()->name}}</a></li>
+                <li><a href="{{route('memberBaseProfile')}}"><i class="glyphicon-user glyphicon"></i> {{Auth::user()->name}}</a></li>
             </ul>
         </div>
     </div>

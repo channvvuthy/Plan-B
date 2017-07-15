@@ -7,9 +7,9 @@
     @include('layout.manager.widget.navbar')
     <div class="col-md-10">
         <div class="pangasu float">
-            <ul class="list-unstyled">
-                <li><a href="/administrator/index"><img src="{{asset('icon/1489862497_house.png')}}" alt=""></a></li>
-                <li><a href="{{route('createUser')}}">Report</a></li>
+            <ul class="list-unstyled text-center">
+                <li><a href="/administrator/index"><i class="glyphicon-home glyphicon"></i></a></li>
+                <li><a href="{{route('createUser')}}"><i class="glyphicon-print glyphicon"></i> Report</a></li>
             </ul>
         </div>
         <div class="clearfix clear-top-normal" style="margin-top:15px;"></div>
@@ -42,7 +42,7 @@
                         </div>
                     </div>
                     <div class="clear-top-simple"></div>
-                    <div class="btn btn-primary btn-block" style="cursor:auto;"><h4><?php echo date('F   Y');?></h4></div>
+                    <div class="btn btn-primary btn-block" style="cursor:auto;"><h5><?php echo date('F   Y');?></h5></div>
                     <div class="clear-top-simple"></div>
                     <div class="col-md-8">
                         <h4 class="text-center">All Member</h4>

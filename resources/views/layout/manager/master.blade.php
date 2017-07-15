@@ -19,6 +19,7 @@
     <script src="{{asset('tinymce/tinymce.min.js')}}" type="text/javascript"></script>
     <script src="{{asset('js/bootstrap-tagsinput.min.js')}}" type="text/javascript"></script>
     <script src="{{asset('js/select2.min.js')}}" type="text/javascript"></script>
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     
     <title>@yield('title')</title>
     <style>
@@ -89,7 +90,9 @@
 
 </script>
 <script>
-    var editor = ace.edit("editor");
+   $(document).ready(function () {
+       var editor = ace.edit("editor");
+   });
 
 </script>
 @yield('script')

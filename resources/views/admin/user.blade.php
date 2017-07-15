@@ -76,7 +76,7 @@
                             <label for="">Group</label>
                         </div>
                         <div class="col-md-8">
-                            <select name="groupName" id="" class="form-control" required>
+                            <select name="groupName" id="" class="form-control">
                                 <option value="">Choose Group</option>
                                 @foreach($groups as $group)
                                     <option value="{{$group->id}}">{{$group->name}}</option>

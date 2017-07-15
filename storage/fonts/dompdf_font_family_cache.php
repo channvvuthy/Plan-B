@@ -80,4 +80,7 @@
   'glyphicons halflings' => array(
     'normal' => $fontDir . '\6c9fb2846b9c2668d69ac5dbad53845c',
   ),
+  'oswald' => array(
+    'normal' => $fontDir . '\7b1042e08927bb1e69b4372ed2c95795',
+  ),
 ) ?>
