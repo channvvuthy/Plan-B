@@ -1,0 +1,1 @@
+@php $ordersBlades =App\Models\Order::all();@endphp
